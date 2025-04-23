@@ -9,17 +9,13 @@
 </head>
 <body>
     <header>
-        <div class="logo-container">
-            <img src="assets/img/logosmk.png" alt="ulaancok">
-            <a href="#">Buku Tahunan Siswa</a>
-        </div>
-        <div class="button-container">
-            <button class="download-button">Download</button>
-        </div>
-    </header>
-    <main>
         <p>Buku</p>
         <span>Tahunan Siswa</span>
+        
+    </header>
+    <main>
+        <!-- <p>Buku</p>
+        <span>Tahunan Siswa</span> -->
 
         <section class="swiper mySwiper">
         <div class="swiper-wrapper">
@@ -138,11 +134,6 @@
                 </div>
             </div>
 
-            <div class="card swiper-slide">
-                <div class="card_image">
-                    <img src="assets/img/dua_delapan.jpg" alt="">
-                </div>
-            </div>
 
             <div class="card swiper-slide">
                 <div class="card_image">
@@ -158,18 +149,39 @@
 
             <div class="card swiper-slide">
                 <div class="card_image">
-                    <img src="assets/img/dua_empat.jpg" alt="">
+                    <img src="assets/img/dua_delapan.jpg" alt="">
                 </div>
             </div>
+
+            <div class="card swiper-slide">
+                <div class="card_image">
+                    <img src="assets/img/dua_delapan.jpg" alt="">
+                </div>
+            </div>
+
 
         </div>
         </section>
-        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        
+        </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="title-footer">
+                <h2>SMK NEGERI 1 LUMAJANG</h2>
+            </div>
+            <div class="footer-content">
+                <p>Jl. H. O.S. Cokroaminoto No.161, Tompokersan, Kec. Lumajang, Kabupaten Lumajang, Jawa Timur 67316</p>
+            </div>
+            <div class="footer-copyright">
+                <p>© 2025 SMK Negeri 1 Lumajang</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
         <script>
             var swiper = new Swiper(".mySwiper", {
-
                 loop: true,
-
+                loopAdditionalSlides: 2,
                 effect: "coverflow",
                 grabCursor: true,
                 centeredSlides: true,
@@ -184,21 +196,8 @@
                 pagination: {
                     el: ".swiper-pagination",
                 },
+                
             });
-        </script>
-    </main>
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="title-footer">
-                <h2>SMK NEGERI 1 LUMAJANG</h2>
-            </div>
-            <div class="footer-content">
-                <p>Jl. H. O.S. Cokroaminoto No.161, Tompokersan, Kec. Lumajang, Kabupaten Lumajang, Jawa Timur 67316</p>
-            </div>
-            <div class="footer-copyright">
-                <p>© 2025 SMK Negeri 1 Lumajang</p>
-            </div>
-        </div>
-    </footer>
+        </script>    
 </body>
 </html>

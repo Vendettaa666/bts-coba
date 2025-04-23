@@ -10,12 +10,17 @@
     font-family: 'Poppins', sans-serif;
 }
 
-header {
-    background-color: #E2EEFF; 
+body {
+    min-height: 100vh;
+    width: 100%;
+}
+  header {
+   background-color: #f8f9fa;
     padding: 15px 20px; 
     display: flex; /* Menggunakan flexbox untuk mengatur tata letak elemen di dalamnya */
     align-items: center; /* Membuat elemen vertikal berada di tengah */
-    justify-content: space-between; /* Memberikan ruang yang sama di antara elemen */
+    justify-content: center; /* Memberikan ruang yang sama di antara elemen */
+    flex-direction: column; /* Stack elements vertically */
 }
 
 .logo-container {
@@ -28,52 +33,29 @@ header {
     margin-right: 15px;
 }
 
-header a {
-    text-decoration: none;
-    color: #333;
-    font-size: 35px;
-    letter-spacing: 3px;
-    font-family: "Jacques Francois", serif;
-}
-
-.button-container .download-button {
-    background-color: #ffffff; /* Warna latar belakang tombol */
-    color: rgb(0, 0, 0); /* Warna teks tombol */
-    padding: 13px 30px; /* Ruang di dalam tombol */
-    border: none; /* Menghilangkan border tombol */
-    border-radius: 20px; /* Membuat sudut tombol menjadi sedikit melengkung */
-    cursor: pointer; /* Mengubah kursor menjadi pointer saat dihover */
-    font-weight: 700;
-    font-size: 15px;
-    letter-spacing: 2px;
-}
-
-.button-container .download-button:hover {
-    background-color: #ffffff; /* Warna latar belakang tombol saat dihover */
-}
-
 main {
     background-color: #f8f9fa;
     padding: 10px;
     text-align: center;
 }
 
-main p {
+header p {
     color: #000000;
     font-size: 70px;
     font-family: "La Belle Aurore", cursive;
     margin-top: -10px;
+    text-align: center;
 }
 
-main span {
+header span {
     color: #000000;
     font-size: 50px;
     font-family: "La Belle Aurore", cursive;
     display: block;
     margin-top: -60px;
     margin-bottom: -70px;
+    text-align: center;
 }
-
 .swiper {
     width: 100%;
 }
@@ -82,17 +64,20 @@ main span {
     height: 30em;
     display: flex;
     align-items: center;
+    flex-wrap: nowrap;
+    transition: transform 0.3s ease;
 }
 
 .card {
     width: 15em;
     height: 70%;
     background-color: #ffffff;
-    border-radius: 50px;
+    border-radius: 25px;
     box-shadow: 0 0 2em rgba(0, 0, 0, .2);
     overflow: hidden; /* Mencegah gambar keluar dari border radius */
     position: relative;
     margin: 0 2em;
+    flex: 0 0 auto;
 }
 
 .card_image {
