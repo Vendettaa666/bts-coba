@@ -9,7 +9,7 @@ scroll-behavior: smooth;
 font-family: 'Poppins', sans-serif;
 }
 header {
-    background-color: #E2EEFF; 
+    background-color: #f0f0f0; 
     padding: 15px 20px; 
     display: flex; /* Menggunakan flexbox untuk mengatur tata letak elemen di dalamnya */
     align-items: center; /* Membuat elemen vertikal berada di tengah */
@@ -21,7 +21,7 @@ header {
   } 
 
 .logo-container img {
-    height: 80px;
+    height: 100px;
     /* Atur tinggi logo sesuai kebutuhan */
 }
 
@@ -35,41 +35,15 @@ header a {
 }
 
 .button-container .download-button {
-    background-color: #ffffff; /* Warna latar belakang tombol */
-    color: rgb(0, 0, 0); /* Warna teks tombol */
-    padding: 15px 30px; /* Ruang di dalam tombol */
+    background-color: #007bff; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    padding: 10px 15px; /* Ruang di dalam tombol */
     border: none; /* Menghilangkan border tombol */
-    border-radius: 20px; /* Membuat sudut tombol menjadi sedikit melengkung */
+    border-radius: 5px; /* Membuat sudut tombol menjadi sedikit melengkung */
     cursor: pointer; /* Mengubah kursor menjadi pointer saat dihover */
     font-weight: bold;
-    font-size: 15px;
 }
 
 .button-container .download-button:hover {
-    background-color: #ffffff; /* Warna latar belakang tombol saat dihover */
-}
-
-
-
-
-
-
-
-footer {
-    display: flex;
-    justify-content: center;
-}
-.footer {
-    background-color: #f0f0f0;
-    padding: 20px 0;
-    text-align: center;
-    position: fixed; /* Membuat footer tetap di viewport */
-    bottom: 0; /* Menempatkan footer di bagian bawah */
-    left: 0; /* Membuat footer membentang dari kiri */
-    width: 100%; /* Membuat footer membentang selebar viewport */
-}
-.title-footer h2 {
-    border-bottom: 3px solid #000; /* Gaya garis vertikal */
-    height: 40px; /* Tinggi garis vertikal */
-    margin: 20px; /* Margin kiri dan kanan untuk memberi jarak dari elemen lain */
+    background-color: #0056b3; /* Warna latar belakang tombol saat dihover */
 }
