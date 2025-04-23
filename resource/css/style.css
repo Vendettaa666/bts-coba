@@ -1,49 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&family=La+Belle+Aurore&display=swap');
 *{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-text-decoration: none;
-border: none;
-outline: none;
-scroll-behavior: smooth;
-font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
 }
+
 header {
-    background-color: #f0f0f0; 
+    background-color: #E2EEFF; 
     padding: 15px 20px; 
     display: flex; /* Menggunakan flexbox untuk mengatur tata letak elemen di dalamnya */
     align-items: center; /* Membuat elemen vertikal berada di tengah */
     justify-content: space-between; /* Memberikan ruang yang sama di antara elemen */
 }
+
 .logo-container {
     display: flex; /* Enable flexbox for alignment */
     align-items: center; /* Vertically align items in the center */
-  } 
+} 
 
 .logo-container img {
-    height: 100px;
-    /* Atur tinggi logo sesuai kebutuhan */
+    height: 50px;
+    margin-right: 15px;
 }
-
 
 header a {
     text-decoration: none;
     color: #333;
-    font-weight: bold;
-    font-size: 45px;
-    
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-family: "Jacques Francois", serif;
 }
 
 .button-container .download-button {
-    background-color: #007bff; /* Warna latar belakang tombol */
-    color: white; /* Warna teks tombol */
-    padding: 10px 15px; /* Ruang di dalam tombol */
+    background-color: #ffffff; /* Warna latar belakang tombol */
+    color: rgb(0, 0, 0); /* Warna teks tombol */
+    padding: 13px 30px; /* Ruang di dalam tombol */
     border: none; /* Menghilangkan border tombol */
-    border-radius: 5px; /* Membuat sudut tombol menjadi sedikit melengkung */
+    border-radius: 20px; /* Membuat sudut tombol menjadi sedikit melengkung */
     cursor: pointer; /* Mengubah kursor menjadi pointer saat dihover */
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2px;
 }
 
 .button-container .download-button:hover {
-    background-color: #0056b3; /* Warna latar belakang tombol saat dihover */
+    background-color: #ffffff; /* Warna latar belakang tombol saat dihover */
+}
+
+main {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+}
+
+main p {
+    color: #000000;
+    font-size: 70px;
+    font-family: "La Belle Aurore", cursive;
+    margin-top: -10px;
+}
+
+main span {
+    color: #000000;
+    font-size: 50px;
+    font-family: "La Belle Aurore", cursive;
+    display: block;
+    margin-top: -60px;
+    margin-bottom: -70px;
+}
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-wrapper {
+    height: 30em;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    width: 15em;
+    height: 70%;
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 0 0 2em rgba(0, 0, 0, .2);
+    overflow: hidden; /* Mencegah gambar keluar dari border radius */
+    position: relative;
+    margin: 0 2em;
+}
+
+.card_image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed; /* Membuat footer tetap di viewport */
+    bottom: 0; /* Menempatkan footer di bagian bawah */
+    left: 0; /* Membuat footer membentang dari kiri */
+    width: 100%; /* Membuat footer membentang selebar viewport */
+}
+.title-footer h2 {
+    border-bottom: 3px solid #000; /* Gaya garis vertikal */
+    height: 40px; /* Tinggi garis vertikal */
+    margin: 20px; /* Margin kiri dan kanan untuk memberi jarak dari elemen lain */
 }

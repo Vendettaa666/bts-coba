@@ -187,6 +187,18 @@
             });
         </script>
     </main>
-    <footer>Copyright &copy; 2025</footer>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="title-footer">
+                <h2>SMK NEGERI 1 LUMAJANG</h2>
+            </div>
+            <div class="footer-content">
+                <p>Jl. H. O.S. Cokroaminoto No.161, Tompokersan, Kec. Lumajang, Kabupaten Lumajang, Jawa Timur 67316</p>
+            </div>
+            <div class="footer-copyright">
+                <p>© 2025 SMK Negeri 1 Lumajang</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
