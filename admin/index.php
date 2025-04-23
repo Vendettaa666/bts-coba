@@ -7,5 +7,6 @@
 </head>
 <body>
    <h1>Halaman Utama Admin</h1>
+   <p>haloo admin</p>
 </body>
 </html>
