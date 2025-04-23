@@ -9,7 +9,7 @@ scroll-behavior: smooth;
 font-family: 'Poppins', sans-serif;
 }
 header {
-    background-color: #f0f0f0; 
+    background-color: #E2EEFF; 
     padding: 15px 20px; 
     display: flex; /* Menggunakan flexbox untuk mengatur tata letak elemen di dalamnya */
     align-items: center; /* Membuat elemen vertikal berada di tengah */
@@ -21,7 +21,7 @@ header {
   } 
 
 .logo-container img {
-    height: 100px;
+    height: 80px;
     /* Atur tinggi logo sesuai kebutuhan */
 }
 
@@ -35,15 +35,16 @@ header a {
 }
 
 .button-container .download-button {
-    background-color: #007bff; /* Warna latar belakang tombol */
-    color: white; /* Warna teks tombol */
-    padding: 10px 15px; /* Ruang di dalam tombol */
+    background-color: #ffffff; /* Warna latar belakang tombol */
+    color: rgb(0, 0, 0); /* Warna teks tombol */
+    padding: 15px 30px; /* Ruang di dalam tombol */
     border: none; /* Menghilangkan border tombol */
-    border-radius: 5px; /* Membuat sudut tombol menjadi sedikit melengkung */
+    border-radius: 20px; /* Membuat sudut tombol menjadi sedikit melengkung */
     cursor: pointer; /* Mengubah kursor menjadi pointer saat dihover */
     font-weight: bold;
+    font-size: 15px;
 }
 
 .button-container .download-button:hover {
-    background-color: #0056b3; /* Warna latar belakang tombol saat dihover */
+    background-color: #ffffff; /* Warna latar belakang tombol saat dihover */
 }
