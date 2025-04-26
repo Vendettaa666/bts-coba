@@ -95,23 +95,48 @@ header span {
     object-position: center;
 }
 
-
-
 footer {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
+
 .footer {
     background-color: #f8f9fa;
     padding: 20px 0;
     text-align: center;
-    position: fixed; /* Membuat footer tetap di viewport */
-    bottom: 0; /* Menempatkan footer di bagian bawah */
-    left: 0; /* Membuat footer membentang dari kiri */
-    width: 100%; /* Membuat footer membentang selebar viewport */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
+
 .title-footer h2 {
-    border-bottom: 3px solid #000; /* Gaya garis vertikal */
-    height: 40px; /* Tinggi garis vertikal */
-    margin: 20px; /* Margin kiri dan kanan untuk memberi jarak dari elemen lain */
+    border-bottom: 3px solid #000;
+    height: 40px;
+    margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 15px 0;
+    }
+    
+    .title-footer h2 {
+        font-size: 1.5rem;
+        margin: 15px;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer {
+        padding: 10px 0;
+    }
+    
+    .title-footer h2 {
+        font-size: 1.2rem;
+        margin: 10px;
+        height: 30px;
+    }
 }

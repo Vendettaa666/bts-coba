@@ -50,116 +50,6 @@
                 </div>
             </div>
 
-            <div class="card swiper-slide">
-                <div class="card_image">
-                    <img src="assets/img/dua_delapan.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="card swiper-slide">
-                <div class="card_image">
-                    <img src="assets/img/dua_delapan.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="card swiper-slide">
-                <div class="card_image">
-                    <img src="assets/img/dua_delapan.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="card swiper-slide">
-                <div class="card_image">
-                    <img src="assets/img/dua_delapan.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="card swiper-slide">
-                <div class="card_image">
-                    <img src="assets/img/dua_delapan.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="card swiper-slide">
-                <div class="card_image">
-                    <img src="assets/img/dua_delapan.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="card swiper-slide">
-                <div class="card_image">
-                    <img src="assets/img/dua_delapan.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="card swiper-slide">
-                <div class="card_image">
-                    <img src="assets/img/dua_delapan.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="card swiper-slide">
-                <div class="card_image">
-                    <img src="assets/img/dua_delapan.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="card swiper-slide">
-                <div class="card_image">
-                    <img src="assets/img/dua_delapan.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="card swiper-slide">
-                <div class="card_image">
-                    <img src="assets/img/dua_delapan.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="card swiper-slide">
-                <div class="card_image">
-                    <img src="assets/img/dua_delapan.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="card swiper-slide">
-                <div class="card_image">
-                    <img src="assets/img/dua_delapan.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="card swiper-slide">
-                <div class="card_image">
-                    <img src="assets/img/dua_delapan.jpg" alt="">
-                </div>
-            </div>
-
-
-            <div class="card swiper-slide">
-                <div class="card_image">
-                    <img src="assets/img/dua_delapan.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="card swiper-slide">
-                <div class="card_image">
-                    <img src="assets/img/dua_delapan.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="card swiper-slide">
-                <div class="card_image">
-                    <img src="assets/img/dua_delapan.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="card swiper-slide">
-                <div class="card_image">
-                    <img src="assets/img/dua_delapan.jpg" alt="">
-                </div>
-            </div>
-
-
         </div>
         </section>
         
@@ -180,7 +70,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
         <script>
             var swiper = new Swiper(".mySwiper", {
-                loop: true,
+                loop: false,
                 loopAdditionalSlides: 2,
                 effect: "coverflow",
                 grabCursor: true,
