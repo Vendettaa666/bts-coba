@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&family=La+Belle+Aurore&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +15,7 @@
 body {
     min-height: 100vh;
     width: 100%;
+    background-color: #f8f9fa;
 }
   header {
    background-color: #f8f9fa;
@@ -61,7 +64,7 @@ header span {
 }
 
 .swiper-wrapper {
-    height: 30em;
+    height: 40em;
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
@@ -69,10 +72,10 @@ header span {
 }
 
 .card {
-    width: 15em;
-    height: 70%;
+    width: 17em;
+    height: 60%;
     background-color: #ffffff;
-    border-radius: 25px;
+    border-radius: 35px;
     box-shadow: 0 0 2em rgba(0, 0, 0, .2);
     overflow: hidden; /* Mencegah gambar keluar dari border radius */
     position: relative;
@@ -112,9 +115,16 @@ footer {
 }
 
 .title-footer h2 {
-    border-bottom: 3px solid #000;
+    border-bottom: 2px solid #000;
     height: 40px;
-    margin: 20px;
+    margin: 10px;
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+}
+
+.footer-content p{
+    font-family: "Inria Serif", serif;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 768px) {
