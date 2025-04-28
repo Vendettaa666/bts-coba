@@ -18,7 +18,7 @@ body {
     background-color: #f8f9fa;
 }
   header {
-   background-color: #f8f9fa;
+    background-color: #f8f9fa;
     padding: 15px 20px; 
     display: flex; /* Menggunakan flexbox untuk mengatur tata letak elemen di dalamnya */
     align-items: center; /* Membuat elemen vertikal berada di tengah */

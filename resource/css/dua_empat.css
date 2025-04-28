@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&family=La+Belle+Aurore&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    background-color: #E2EEFF; /* Warna latar belakang header */
+    padding: 15px 20px; /* Padding atas-bawah dan kiri-kanan */
+    display: flex; /* Menggunakan flexbox untuk tata letak */
+    align-items: center; /* Membuat item vertikal berada di tengah */
+    justify-content: space-between; /* Memberikan ruang di antara elemen */
+    border-bottom: 1px solid #eee; /* Garis bawah tipis */
+}
+
+.header-content {
+    display: flex; /* Menggunakan flexbox untuk tata letak konten */
+    align-items: center; /* Membuat item vertikal berada di tengah */
+}
+
+.header-content img {
+    height: 50px; /* Tinggi logo */
+    margin-right: 15px; /* Jarak antara logo dan teks */
+}
+
+.header-content p {
+    font-size: 3em; /* Ukuran font teks */
+    font-family : "Jacques Francois", cursive;
+    color: #black; /* Warna teks */
+    margin: 0; /* Menghilangkan margin default pada tag <p> */
+}
+
+.Download-button {
+    background-color: #ffffff; /* Warna latar belakang tombol */
+    color: black; /* Warna teks tombol */
+    padding: 10px 15px; /* Padding tombol */
+    border: none; /* Menghilangkan border tombol */
+    border-radius: 30px; /* Membuat sudut tombol menjadi tumpul */
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat dihover */
+    font-size: 1em; /* Ukuran font tombol */
+}
+
+.Download-button:hover {
+    background-color:rgb(192, 220, 251); /* Warna latar belakang tombol saat dihover */
+}
+
+.content-header {
+    display: flex;
+    align-items: center;
+    
+}
+
+.youtube-video {
+    position: relative;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+
+
+.layout-button {
+    display: inline-block; /* Makes it behave like a button but flows inline */
+    width: 40%; /* Adjust width as needed */
+    height: 80px;
+    margin: 5px; /* Adds spacing between buttons */
+    padding: 30px; /* Adjust padding as needed */
+    text-align: center; /* Centers the text within the button */
+    text-decoration: none; /* Removes default link underline */
+    color: white; /* Sets text color */
+    background-color: #007bff; /* Sets a background color (adjust as desired) */
+    border: none; /* Removes default button border */
+    border-radius: 10px; /* Adds rounded corners */
+    cursor: pointer; /* Changes cursor to a pointer on hover */
+    transition: background-color 0.3s ease; /* Adds a smooth transition for hover effect */
+  }
+  
+  .layout-button:hover {
+    background-color: #0056b3; /* Darkens the background color on hover */
+  }
+  
+  .layout-button p {
+    margin: 0; /* Removes default paragraph margins */
+    font-size: 16px; /* Sets font size */
+    font-family: Poppins;
+  }
+
+
+.buku-kelas {
+    display: flex;
+}
+.buku-kelas p {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 15px;
+    display: block;
+    margin: 0;
+}
+
+  .buku-kelas-content {
+    width: 280px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .buku-kelas-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .buku-kelas-content h1 {
+    font-size: 1.4em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #007bff; /* Garis bawah judul */
+    display: inline-block; /* Agar garis hanya sepanjang teks */
+  }
+  
+  .buku-kelas-content h2 {
+    font-size: 1em;
+    color: #666;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .buku-kelas-content hr {
+    display: none; /* Sembunyikan garis horizontal */
+  }
+  
+  .buku-kelas-content button {
+    background-color: transparent; /* Latar belakang transparan */
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .buku-kelas-content button:hover {
+    background-color: #007bff;
+    color: white;
+  }
