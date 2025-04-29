@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&family=La+Belle+Aurore&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
 
 *{
     margin: 0;
@@ -10,6 +12,12 @@
     outline: none;
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #f8f9fa;
 }
 .header {
     background-color: #E2EEFF; /* Warna latar belakang header */
@@ -59,94 +67,112 @@
 
 .youtube-video {
     position: relative;
-    margin-left: 30px;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 40px;
     margin-top: 30px;
   }
 
+  .layout-button, .layout-button-osis {
+    display: inline-block;
+    height: 80px;
+    margin: 5px;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 
 .layout-button {
-    display: inline-block; /* Makes it behave like a button but flows inline */
-    width: 40%; /* Adjust width as needed */
-    height: 80px;
-    margin: 5px; /* Adds spacing between buttons */
-    padding: 30px; /* Adjust padding as needed */
-    text-align: center; /* Centers the text within the button */
-    text-decoration: none; /* Removes default link underline */
-    color: white; /* Sets text color */
-    background-color: #007bff; /* Sets a background color (adjust as desired) */
-    border: none; /* Removes default button border */
-    border-radius: 10px; /* Adds rounded corners */
-    cursor: pointer; /* Changes cursor to a pointer on hover */
-    transition: background-color 0.3s ease; /* Adds a smooth transition for hover effect */
-  }
-  
-  .layout-button:hover {
-    background-color: #0056b3; /* Darkens the background color on hover */
-  }
-  
-  .layout-button p {
-    margin: 0; /* Removes default paragraph margins */
-    font-size: 16px; /* Sets font size */
-    font-family: Poppins;
-  }
-
-
-.buku-kelas {
-    display: flex;
+    width: 40.5%;
 }
-.buku-kelas p {
-    font-size: 1.2em;
-    font-weight: bold;
-    padding: 15px;
-    display: block;
+
+.layout-button-osis {
+    width: 82%;
+}
+
+.layout-button:hover, .layout-button-osis:hover {
+    background-color: #0056b3;
+}
+
+.layout-button p {
     margin: 0;
+    font-size: 16px;
+    font-family: Poppins;
 }
 
-  .buku-kelas-content {
-    width: 280px;
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .buku-kelas-content img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 15px;
-  }
-  
-  .buku-kelas-content h1 {
-    font-size: 1.4em;
-    margin-top: 0;
-    margin-bottom: 10px;
-    padding-bottom: 5px;
-    border-bottom: 2px solid #007bff; /* Garis bawah judul */
-    display: inline-block; /* Agar garis hanya sepanjang teks */
-  }
-  
-  .buku-kelas-content h2 {
-    font-size: 1em;
-    color: #666;
-    margin-top: 5px;
-    margin-bottom: 15px;
-  }
-  
-  .buku-kelas-content hr {
-    display: none; /* Sembunyikan garis horizontal */
-  }
-  
-  .buku-kelas-content button {
-    background-color: transparent; /* Latar belakang transparan */
-    color: #007bff;
-    border: 1px solid #007bff;
-    border-radius: 5px;
-    padding: 8px 15px;
-    cursor: pointer;
-    font-size: 0.9em;
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  
-  .buku-kelas-content button:hover {
-    background-color: #007bff;
-    color: white;
-  }
+
+.content-book {
+  margin-left: 20px;
+}
+  .buku-kelas {
+  display: flex;
+  margin-left: 10px;
+  overflow-x: auto;
+  gap: 1px;
+}
+.buku-kelas::-webkit-scrollbar {
+  width: 0; 
+}
+ p {
+  font-size: 2em;
+  font-weight: bold;
+  padding: 15px;
+  display: block;
+  margin: 0;
+}
+
+.buku-kelas-card {
+  flex: 0 0 220px;
+  text-align: left;
+}
+
+.buku-kelas-card img {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  margin: 0 auto 15px 0;
+  display: block;
+}
+
+.buku-kelas-card h1 {
+  font-size: 1.4em;
+  margin: 0 0 5px 0;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #007bff;
+  display: inline-block;
+  font-family: 'Newsreader', serif;
+  text-align: left;
+}
+
+.buku-kelas-card h2 {
+  font-size: 1em;
+  color: #666;
+  margin: 0 0 15px 0;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+}
+
+.buku-kelas-card button {
+  background-color: transparent;
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: block;
+  width: 180px;
+  margin: 0;
+}
+
+.buku-kelas-card button:hover {
+  background-color: #007bff;
+  color: white;
+}
