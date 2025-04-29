@@ -33,7 +33,7 @@
 .header-content p {
     font-size: 3em; /* Ukuran font teks */
     font-family : "Jacques Francois", cursive;
-    color: #black; /* Warna teks */
+    color: black; /* Warna teks */
     margin: 0; /* Menghilangkan margin default pada tag <p> */
 }
 
